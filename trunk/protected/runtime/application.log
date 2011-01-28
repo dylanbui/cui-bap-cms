@@ -1,0 +1,35 @@
+2011/01/26 16:56:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news/show".' in D:\_PHP\yii116\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\_PHP\yii116\framework\web\CWebApplication.php(121): CWebApplication->runController('news/show')
+#1 D:\_PHP\yii116\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\_PHP\yii116\index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/news/show
+2011/01/26 17:24:44 [error] [exception.CException] exception 'CException' with message 'Property "NewsController.rowset" is not defined.' in D:\_PHP\yii116\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\_PHP\yii116\protected\views\news\show.php(4): CComponent->__get('rowset')
+#1 D:\_PHP\yii116\framework\web\CBaseController.php(119): require('D:\_PHP\yii116\...')
+#2 D:\_PHP\yii116\framework\web\CBaseController.php(88): CBaseController->renderInternal('D:\_PHP\yii116\...', NULL, true)
+#3 D:\_PHP\yii116\framework\web\CController.php(833): CBaseController->renderFile('D:\_PHP\yii116\...', NULL, true)
+#4 D:\_PHP\yii116\framework\web\CController.php(746): CController->renderPartial('show', NULL, true)
+#5 D:\_PHP\yii116\protected\controllers\NewsController.php(15): CController->render('show')
+#6 D:\_PHP\yii116\framework\web\actions\CInlineAction.php(57): NewsController->actionShow()
+#7 D:\_PHP\yii116\framework\web\CController.php(300): CInlineAction->run()
+#8 D:\_PHP\yii116\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 D:\_PHP\yii116\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\_PHP\yii116\framework\web\CWebApplication.php(328): CController->run('show')
+#11 D:\_PHP\yii116\framework\web\CWebApplication.php(121): CWebApplication->runController('news/show')
+#12 D:\_PHP\yii116\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#13 D:\_PHP\yii116\index.php(11): CApplication->run()
+#14 {main} REQUEST_URI=/news/show
+2011/01/27 10:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\_PHP\yii116\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\_PHP\yii116\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 D:\_PHP\yii116\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\_PHP\yii116\index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/01/27 10:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\_PHP\yii116\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\_PHP\yii116\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 D:\_PHP\yii116\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\_PHP\yii116\index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
